@@ -47,7 +47,7 @@ while True:
 
     x, y, z = lis3dh.acceleration  # Getting values for the acceleration in x, y and z axes
     x, y, z = abs(x), abs(y), abs(z)  # Taking the absolute of the values since the change in relative acceleration will always be positive
-    #print(x, y, z)
+    # print(x, y, z)
 
     # Setting up default position:
     if 8 < x < 10:
@@ -58,20 +58,20 @@ while True:
         pos = y
 
     # Detecting jumps and ducks:
-    if pos > 10:
+    if pos > 11:  # You can change these values according to your sensitivity
         print(x, y, z)
         keyboard.press(Keycode.UP_ARROW)  # "Press"...
         keyboard.release_all()
         print('Jumped')
         ledj.value = True
         time.sleep(0.5)
-    elif pos < 9:
+    elif pos < 8:  # You can change these values according to your sensitivity
         print(x, y, z)
         keyboard.press(Keycode.DOWN_ARROW)  # "Press"...
-        time.sleep(0.5)
-        keyboard.release_all()
         print('Ducked')
         ledd.value = True
+        time.sleep(0.5)
+        keyboard.release_all()
         time.sleep(0.5)
 
     time.sleep(0.05)

@@ -1,7 +1,9 @@
 # Jump-Yo'-Rex
-This repo is for my Jump Yo' Rex project.
-
+This repo is for my Jump Yo' Rex project.<br>
 _You jump and your Rex jumps with you, you duck and your Rex ducks with you._
+
+This project won the 'Best Hardware Hack presented by Digi-Key' in the Who Wants To Be A Hackionaire Hackathon organized by [Major League Hacking(MLH)](https://mlh.io/):<br>
+https://devpost.com/software/jump-yo-rex
 
 ## Seeduino XIAO
 The SEEED Studio's [Seeeduino XIAO](https://wiki.seeedstudio.com/Seeeduino-XIAO/) is a minimal, low-cost board that uses the Atmel ATSAMD21G18, a powerful 32-bit ARM Cortex®-M0+ processor running at 48MHz with 256KB Flash and 32KB SRAM. The board is 20 x 17.5mm in size which is perfect for wearable devices and small projects. It has multiple development interfaces including DAC output, SWD Bonding pad interface, I2C, UART and SPI interfaces. It's Compatible with both [Arduino IDE](https://www.arduino.cc) and [CircuitPython](https://www.circuitpython.org) and uses a USB-C connector.
